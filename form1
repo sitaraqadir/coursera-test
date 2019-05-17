@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link href="C:\Users\Sitara Maaz\Desktop\fiver\style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="http://livejs.com/live.js"></script>
+</head>
+
+<body>
+
+
+  <form action="/action_page.php">
+    <div class="add">
+        <img src="C:\Users\Sitara Maaz\Desktop\fiver\news-g-logo-transparent-background.png" alt="logo" width="75" height="40">
+      <label><b>Add Link</b></label>
+      <hr>
+    </div>
+    <button class="button3">
+      <strong>&#10006;</strong>
+    </button>
+   
+    
+    <div class="center">
+      <textarea rows="3" placeholder=" Enter a Title"></textarea>
+      <br><br>
+      <textarea rows="7" placeholder="&#8220; Say Something about this link"></textarea>
+      <br><br>
+      <label for="tag"></label>
+      <input id="tag" name="tag" placeholder="&#9998;Enter tags">
+      <br><br>
+      <label for="link-source-url">URL</label>
+      <br>
+      <input name="link-source-url" id="Link-source-url" placeholder=" http://..." on-enter-press="call function here">
+      <br><br>
+    
+      <label class="switch">
+          <input type="checkbox">
+           <span class="slider round"></span>
+        </label>
+      <br><br>
+    </div>
+    <hr>
+    <button class="button2">
+      <strong>SAVE</strong>
+    </button>
+    <button class="button1">
+      <strong>CANCLE</strong>
+    </button>
+  </form>
+
+</body>
+
+</html>
